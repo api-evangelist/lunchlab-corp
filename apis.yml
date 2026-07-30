@@ -1,7 +1,15 @@
 aid: lunchlab-corp
 name: lunchlab Corp.
-description: lunchlab Corp. is a company surfaced as a portfolio company of 500-global and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  lunchlab Corp. (런치랩) is a Seoul-based corporate lunch subscription and delivery
+  service that brings daily meals to office teams across South Korea. It offers two
+  rotating meal lines — a traditional home-style Korean lunch box and a "Fresh Meal"
+  line of poke bowls and sandwiches — with delivery and pickup included for a flat
+  per-meal price, employees choosing their meals through a mobile app while
+  administrators manage orders and billing from a web dashboard. Surfaced as a
+  500 Global portfolio company and added to the API Evangelist network, lunchlab
+  operates in the food-service / corporate-catering space and does not currently
+  publish a public developer API, developer portal, or SDKs.
 url: https://raw.githubusercontent.com/api-evangelist/lunchlab-corp/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +17,29 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.lunchlab.me/opengraph-image.jpg
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Food Service
+- Corporate Catering
+- Meal Delivery
+- Subscription
+- Food Tech
+- South Korea
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +47,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/lunchlab-corp-domain-security.yml
 - type: Website
   url: https://lunchlab.me
+- type: PrivacyPolicy
+  url: https://lunchlab.me/privacy
+- type: TermsOfService
+  url: https://lunchlab.me/policy
+- type: Support
+  url: https://lunchlab.me/contact
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
