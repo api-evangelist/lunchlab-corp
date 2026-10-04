@@ -1,5 +1,5 @@
 aid: lunchlab-corp
-name: lunchlab Corp.
+name: lunchlab
 description: >-
   lunchlab Corp. (런치랩) is a Seoul-based corporate lunch subscription and delivery
   service that brings daily meals to office teams across South Korea. It offers two
@@ -73,3 +73,4 @@ x-enrichment:
   status: minimal
   artifacts_added: 1
   pass: local-v1
+x-legal-name: lunchlab Corp.
